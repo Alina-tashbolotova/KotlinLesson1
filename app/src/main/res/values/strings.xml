@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">KotlinLesson1</string>
+    <string name="check_edit">Check Edit</string>
+    <string name="to_push">To Push</string>
+    <string name="alina">Alina</string>
+</resources>

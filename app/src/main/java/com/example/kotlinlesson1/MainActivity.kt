@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         buttonClick()
+        acceptData()
 
     }
 
@@ -34,6 +35,13 @@ class MainActivity : AppCompatActivity() {
                 }
                 startActivity(intent)
             }
+        }
+    }
+
+    private fun acceptData() {
+        val intentValue = intent.getStringExtra("Key")
+        binding.txtPush.apply {
+            text = intentValue.toString()
         }
     }
 }

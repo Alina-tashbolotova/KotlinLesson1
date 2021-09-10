@@ -23,7 +23,7 @@
         android:layout_centerInParent="true"
         android:layout_below="@id/txt_second"
         android:layout_width="wrap_content"
-        android:text="@string/to_push"
+        android:text="@string/push"
         android:layout_height="wrap_content"/>
 
 </RelativeLayout>

@@ -4,4 +4,5 @@
     <dimen name="check_btn_top">25sp</dimen>
     <dimen name="texSize">20sp</dimen>
     <dimen name="padding15">15dp</dimen>
+    <dimen name="margin20">20sp</dimen>
 </resources>
